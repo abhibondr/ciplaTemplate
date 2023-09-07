@@ -1,0 +1,651 @@
+.head {
+  height: 68px;
+}
+
+.logo {
+  width: 100px;
+  height: 38px;
+}
+
+.form-control {
+  height: 30px;
+  box-shadow: none;
+  border: none;
+  background: #035ea6;
+  border-radius: 30px;
+  color: white;
+}
+
+/* .magnify {
+  color: white !important;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  right: 45px;
+} */
+
+.abhi {
+  margin-top: 50px;
+}
+
+form input::placeholder {
+  color: white !important;
+}
+
+form input {
+  background: #035fa7 !important;
+}
+
+.blue-icon {
+  max-width: 90%;
+  text-align: left;
+  display: block;
+  position: relative;
+}
+
+.blue-icon h5 {
+  font-weight: bold;
+  color: #035ea6;
+}
+
+.carousel-caption {
+  display: block;
+  width: 40%;
+  text-align: left;
+  position: relative;
+  bottom: 450px;
+  left: 45px;
+}
+
+.btn-group {
+  position: absolute;
+  bottom: 150px;
+  margin-left: 100px;
+  height: 180px;
+  background-color: #329ed8;
+  box-shadow: -10px -10px 10px rgb(0 0 0 / 30%);
+}
+
+.text-center {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #005ca6;
+  margin: 0 0 40px 0;
+  padding: 0 0 10px 0;
+  position: relative;
+}
+
+.text-center::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 250px;
+  height: 3px;
+  background: #f9ad42;
+  border-radius: 2px;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+}
+
+.grid-wrapper .latest-at-cipla-item {
+  position: relative;
+}
+
+.grid-wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-wrapper > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid-wrapper .tall {
+  grid-row: span 2;
+}
+
+.gallery {
+  background-color: #f2f2f2;
+}
+
+.content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+  z-index: 2;
+}
+
+.content p {
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.img:hover {
+  opacity: 0.8;
+  background-color: #005ca6;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+.my-cipla-my-pride-grid-wrapper {
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.my-cipla-my-pride-item {
+  margin-bottom: 30px;
+}
+
+.my-cipla-my-pride-grid-wrapper .double-column {
+  display: flex;
+  column-gap: 20px;
+}
+
+.my-cipla-my-pride-grid-wrapper .double-column > div:first-child {
+  width: 58%;
+}
+
+.my-cipla-my-pride-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.my-cipla-my-pride-grid-wrapper .double-column > div:last-child {
+  width: 42%;
+}
+
+.my-cipla {
+  background-color: #f2f2f2;
+}
+
+/* Investor center */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.graph {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  height: calc(400px - 32px);
+}
+
+.tradingview-widget-copyright {
+  font-size: 13px !important;
+  line-height: 32px !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu,
+    sans-serif !important;
+  color: #9db2bd !important;
+}
+
+.tradingview-widget-copyright a {
+  text-decoration: none !important;
+  color: #9db2bd !important;
+}
+
+.blue-text {
+  color: #2962ff;
+  text-align: center;
+}
+
+.disclaimer-text {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 20px;
+  color: #7f7f7f;
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px;
+  margin-bottom: 0;
+}
+
+.stock-block-bottom p,
+.disclaimer-text {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 20px;
+  color: #7f7f7f;
+  display: flex;
+  align-items: center;
+}
+
+.stock-block-bottom {
+  padding: 13px 20px;
+  -webkit-box-shadow: 6px 7px 7px -1px rgb(0 0 0 / 18%);
+  -moz-box-shadow: 6px 7px 7px -1px rgba(0, 0, 0, 0.18);
+  box-shadow: 6px 7px 7px -1px rgb(0 0 0 / 18%);
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.stock-block-bottom p strong {
+  font-size: 24px;
+  color: #00ad8a;
+  padding-left: 10px;
+}
+
+.homepage-content .views-element-container {
+  position: relative;
+  padding: 0 !important;
+}
+
+.view-header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #00ad8a;
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.news-latest-content {
+  background: transparent
+    url(https://www.cipla.com/themes/cipla/images/icon-press.svg) no-repeat 0 0;
+  padding: 2px 0 8px 35px;
+  font-weight: 600;
+  color: #808080;
+  transition: 0.5s all linear;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-latest-content a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  padding-bottom: 15px;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.stock-block-bottom h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  position: relative;
+  color: #00ad8a !important;
+  margin-bottom: 5px;
+}
+
+.stock-block-bottom h1::before {
+  content: "";
+  display: block;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  background: #f9ad42;
+  border-radius: 3px;
+  width: 100px;
+}
+
+.stock-block-bottom h1::after {
+  content: "";
+  display: block;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  background: #f9ad42;
+  border-radius: 3px;
+  left: 110px;
+  width: 20px;
+}
+
+.side-img {
+  width: 100%;
+}
+
+.annual-report-content-wrapper {
+  background: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.annual-report-content-wrapper h1 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.annual-report-content-wrapper a {
+  display: inline-block;
+  padding: 6px 18px 6px 18px;
+  background-color: #fff;
+  color: #00ad8a;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  transition: 0.5s all linear;
+}
+
+.annual-report-content-wrapper a:hover {
+  background-color: #00ad8a;
+  color: white;
+}
+
+/* Driven by purpose */
+
+.home-page.view-content {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.home-page .vision-content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 500px;
+  background: #035ea6;
+  border-radius: 18px;
+  padding: 30px;
+}
+
+.driven-by-purpose-icon {
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+ul.driven-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 60%;
+}
+
+ul.driven-list li {
+  margin: 15px 0;
+}
+
+ul.driven-list li a.read-more-arrow {
+  display: block;
+  color: #005ca6;
+}
+
+.read-more-arrow {
+  display: inline-block;
+  padding: 10px 45px 10px 25px;
+  background-color: #ffffff;
+  color: #f9ad42;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  background-image: url(https://www.cipla.com/themes/cipla/images/arrow-yellow.svg);
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  transition: 0.5s all linear;
+}
+
+.read-more-arrow:hover {
+  background-color: #329ed8;
+}
+
+.home-page .vision-body {
+  padding: 0 0 25px 0;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.home-page .vision-body p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Standing-strong */
+
+.strong-para {
+  font-size: 16px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.age-img {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgb(0 0 0/80%);
+}
+
+.age-img-content {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  bottom: 15px;
+  right: auto;
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.age-para {
+  margin: 0 0 10px;
+}
+
+.age-logo {
+  display: block;
+  width: 175px;
+  background: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.age-logo img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+
+ul.homepage-social {
+  padding: 0 0 50px 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul.homepage-social li {
+  margin: 0 5px;
+  text-align: center;
+}
+
+ul.homepage-social li a {
+  font-size: 40;
+  height: 35px;
+  width: 40px;
+  border: 2px solid #b3b3b3;
+  background: #b3b3b3;
+  border-radius: 50%;
+  display: block;
+  text-decoration: none;
+  transition: 0.5s all linear;
+}
+
+.fa-brands {
+  width: 25px;
+  height: 50px;
+  color: white;
+}
+
+ul.homepage-social li a:hover {
+  background-color: #337ab7;
+}
+
+.owl-carousel .owl-theme {
+  display: flex;
+}
+
+/* stay connected */
+
+/* footer start */
+
+.footer-main {
+  background: #035fa7;
+  padding-top: 60px;
+  margin-top: 30px;
+}
+
+.footer-top {
+  padding-bottom: 20px;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-main ul li {
+  padding-bottom: 4px;
+}
+
+.timeline {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  opacity: 0.65;
+  transition: transform 0.5s ease;
+  margin-bottom: 30px;
+}
+
+.footer-main ul li.first {
+  padding-bottom: 12px;
+  display: block;
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+
+.footer-main ul li:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+.col-md-15 {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  padding-top: 70px;
+}
+
+.footer-bottom p {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding-right: 75px;
+}
+
+.footer-bottom ul {
+  display: inline-flex;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.footer-bottom ul li i {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 25px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  opacity: 0.65;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+/* our portfolio */
+.content {
+  font-size: 32px !important;
+  font-weight: 700;
+  color: gray;
+  padding: 0 0 10px 0;
+  margin: 0 0 30px 0;
+}
+
+.text-secondary {
+  font-size: 32px;
+}
+
+.content .Henry::before {
+  content: "";
+  display: block;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  background: #005ca6;
+  border-radius: 3px;
+  width: 100px;
+}
+
+.content .fs-6::after {
+  content: "";
+  display: block;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  background: #005ca6;
+  border-radius: 3px;
+  left: 110px;
+  width: 20px;
+}
